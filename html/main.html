@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>IP Location Finder and Google Drive Uploader</title>
+		<style>
+			body, form{
+				margin: 0 auto;
+				max-width:500px;
+				overflow-x:hidden;
+			}
+			fieldset{
+				display: flex;
+			}
+			input#ip_address{
+				flex-grow:100;
+				margin: 0 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<form action="search" method="get">
+			<img src="../images/banner.jpg"  width="400" height="400" alt="IP Location Finder and Google Drive Uploader" />
+			<fieldset>
+				<label for="ip_address">Enter an IP address:</label>
+				<input id="ip_address" name="ip_address" type="text" />
+				<input type="submit" value="Search" />
+			</fieldset>
+			<label for="title"> <b>IP Location Finder and Google Drive Uploader</b></label>
+		</form>
+	</body>
+</html>
